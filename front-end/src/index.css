@@ -1,0 +1,74 @@
+body {
+  background-color: antiquewhite;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  
+}
+
+
+
+#book-list li{
+  display:inline-block;
+  margin:15px;
+  padding: 10px;
+  border-radius:500px;
+  border:1px solid #880E4F;
+  transition:all 0.3s ease;  
+  cursor: pointer;
+}
+
+#book-list li:hover{
+  box-shadow: 0 1px 5px 1px #cccccc;
+  -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        opacity: none;
+        background-color: deeppink;
+}
+
+
+button{
+  border-radius: 500px;
+  box-shadow: #880E4F;
+  background-color: deeppink;
+  height:40px;
+  width:40px;
+  user-select: none;
+  transition:all 0.3s ease;  
+ 
+}
+
+button:hover{
+  background-color: antiquewhite;
+  cursor: pointer;
+}
+
+#adbook{
+  margin-left: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+
+.field{
+  height: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1em;
+}
+
+input,option,select{
+  border: 1px solid;
+  border-radius: 8px;
+  height: 25px;
+  font-size: 1em;
+  padding-left: 5px;
+  user-select: none;
+}
+
+
+
+#bookdetails{
+ margin-left: 100px;
+ margin-top: 40px;
+ margin-bottom: 40px;
+}
